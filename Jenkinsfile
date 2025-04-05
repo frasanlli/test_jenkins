@@ -6,7 +6,6 @@ pipeline {
             steps {
                 sh '''
                 cd D:/franchis/Desktop/test_jenkins
-                git fetch
                 git checkout develop
                 git pull origin develop
                 git merge origin/workingbranch
